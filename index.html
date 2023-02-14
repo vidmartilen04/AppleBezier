@@ -2,16 +2,54 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Apple</title>
 	<link rel="icon" type="image/x-icon" href="img/favicon5.ico">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.2/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
 <body>
   <div id="Head">
   		<div id="menua">
-        <img id="logo" src="img/logotip.svg">
+        <svg id="logo" viewBox="0 0 842 1000">
+  <path fill="#898989" stroke="#898989" stroke-width="1"
+        d="M 824.35,779.30
+           C 809.24,814.24 791.34,846.40 770.61,875.97
+             742.35,916.27 719.21,944.18 701.38,959.67
+             673.74,985.10 644.12,998.12 612.40,998.86
+             589.63,998.86 562.18,992.38 530.21,979.24
+             498.15,966.15 468.68,959.67 441.73,959.67
+             413.47,959.67 383.16,966.15 350.74,979.24
+             318.28,992.38 292.12,999.24 272.12,999.91
+             241.71,1001.21 211.39,987.82 181.14,959.67
+             161.82,942.82 137.67,913.93 108.73,873.00
+             77.68,829.30 52.15,778.62 32.15,720.85
+             10.74,658.44 0.00,598.01 0.00,539.51
+             0.00,472.49 14.48,414.69 43.47,366.25
+             66.26,327.35 96.57,296.66 134.51,274.13
+             172.45,251.60 213.45,240.12 257.60,239.38
+             281.75,239.38 313.43,246.86 352.80,261.55
+             392.06,276.29 417.26,283.76 428.31,283.76
+             436.57,283.76 464.57,275.02 512.04,257.60
+             556.93,241.44 594.82,234.75 625.85,237.38
+             709.96,244.17 773.14,277.34 815.16,337.09
+             739.94,382.68 702.74,446.54 703.48,529.13
+             693.00,502.50 690.00,690.00 841.50,727.50
+             861.06,771.14 1147.26,751.31 1158.00,676.50
+             1174.10,665.08 948.19,453.00 963.00,453.00
+             963.00,453.00 824.35,779.30 824.35,779.30 Z
+           M 631.47,20.01
+           C 631.47,70.02 613.21,116.71 576.80,159.93
+             532.87,211.31 479.73,241.01 422.10,236.32
+             421.37,230.32 420.94,224.01 420.94,217.37
+             420.94,169.36 441.84,117.98 478.94,75.97
+             497.46,54.70 521.02,37.01 549.59,22.90
+             578.10,9.00 605.06,1.32 630.42,0.00
+             631.16,6.69 631.47,13.37 631.47,20.01
+             631.47,20.01 631.47,20.01 631.47,20.01 Z" />
+</svg>
         <ul style="top: 10px;">
           <li><a href="https://www.apple.com/store" target="_blank" style="font-size:14px;">Store</a></li>
           <li><a href="https://www.apple.com/iphone/" target="_blank" style="font-size:14px;">iPhone</a></li>          
@@ -49,8 +87,8 @@
   	<br>
   	<br>
   	<div id="parBody" style="width: 100%;">
-  		<div><img src="img/BodyiPhone.jpg" style=" padding-left: 10px; width:60%; height:60%;"></div>
-  	   <div class="textDes" style="transform: translate(210%,-200%); text-align:right; width: 400px;">
+  		<div><img src="img/BodyiPhone.jpg" style="left: 10px; width:100%; height:100%;"></div>
+  	   <div class="textDes" style=" text-align:right; width: 400px; padding-left:100px;">
   	   	At Apple we have made<br> 
   	   	the best iPhone yet.<br>
         Say hello to iPhone 14 Pro! 
@@ -60,25 +98,25 @@
   <br>
   <div class="outerText">Smile for the innovation</div>
   <div id="selfieBody">
-  	  <div class="pSelfiePic"><img src="img/SelfieFuture.jpg" style="width: 150%; height: 100%; padding-left:15px;"></div>
-  	  	<div class="textDes" style="transform:translate(20%,-150%);">
+  	  <div class="pSelfiePic"><img src="img/SelfieFuture.jpg" style="width: 110%;"></div>
+  	  	<div style="display:flex; flex-direction: column;"><div class="textDes" style="transform:translate(25%,-140%); width: 550px;">
   	  		Take breathtaking selfies and videos<br>
   	  		with our amazing 12MP TrueDepth<br>
   	  		camera.<br>
   	  		Create great memories with the best<br>
   	  		portrait selfies on a smartphone.<br>
   	  </div>
-  	  <div class="outerText" style="transform: translate(0%, -110%);">More detailed photos with main camera
+  	  <div class="outerText" style="">More detailed photos with main camera
   	</div>
-	    <div class="textDes" style="transform:translate(20%,10%);">
+	    <div class="textDes" style="transform:translate(30%,10%); width: 670px;">
   	  The main 3 camera setup offers <br>
 			you 48MP main camera for stunning<br>
 			and more detiled photos. 12MP Telephoto<br> 
 			camera for stunning portraits and an<br>
 			amazing 12MP Ultra Wide camera<br>
 			with a fantastic depth sensing LIDAR sensor
-  	  </div>
-	  <div class="pSelfiePic"><img src="img/snapshot.jpg" style="width: 100%; height: 100%; padding-top:-10px;"></div>
+  	  </div></div>
+	  <div><img src="img/snapshot.jpg" style="width: 100%; height: 100%; padding-top:-10px;"></div>
 	</div>
     <br>
   	   	<div id="ColorsOfPhones">
@@ -96,7 +134,7 @@
 					
 				</div>
 				<br>
-				<div class="textDes" style="transform:translate(50%,-125%);">Designed for durability.<br><br>
+				<div class="textDes" style="transform:translate(45%,-125%); width: 605px; display: inline-flex;">Designed for durability.<br><br>
 				Made from stainless steel frame<br>
 				reinforced glass back and ceramic shield<br>
 				display. 6.1" and 6.7" display sizes
@@ -106,15 +144,15 @@
   <br>
     <div style="height:2130px; width: 100%;">
     	<img src="img/telefonB.png" style="padding-left: 10px;">
-  		<div class="textDes" style=" width:570px; text-align:right; transform: translate(115%,-480%);">
+  		<div class="textDes" style=" width:570px; text-align:right; transform: translate(115%,-475%);">
 				Desinged with security in mind,<br>
 				nothing ever leaves your iPhone and<br>
 				stays encrypted on the device.
 			  </div>
-			  <div style="text-align:right; width:580px; font-size:50px; height:50px; transform: translate(110%, -1070%);">
+			  <div style="text-align:right; width:580px; font-size:50px; height:50px; transform: translate(110%, -900%);">
   			The safest iPhone EVER!
 			  </div>
-			  <div class="textDes" style="text-align: right; width:550px; transform: translate(120%, -300%);">
+			  <div class="textDes" style="text-align: right; width:550px; transform: translate(120%, -250%);">
   			By redesigning iPhones Gyroscope<br>
   			your iPhone can detect a severe car<br>
   			crash, than call 911 and notify<br>
@@ -149,12 +187,35 @@
   					<li style="display: block; text-align: left; padding: 15px 0px 0px 0px; font-size: 32px; font-weight: 400; color:#CECECE;">iPhone 14 Plus from 899$</li>
   					<li style="display: block; text-align: left; padding: 15px 0px 0px 0px; font-size: 32px; font-weight: 400; color:#CECECE;">iPhone 14 Pro from 999$</li>
   					<li style="display: block; text-align: left; padding: 15px 0px 0px 0px; font-size: 32px; font-weight: 400; color:#CECECE;">iPhone 14 Pro Max from 1099$</li>
-  				</ul><img src="img/largeGphoto.jpg" style="transform:translate(-1%,-30%); width:105%;"></div>
+  				</ul>
     </div>
+    	<img src="img/largeGphoto.jpg" style="width:100%;">
   		<br>
-  </div>
+  </div></div>
   <div id="Foot">
-  	designed by Tilen Vidmar 
+  	<a style="padding-top: 5px;" onclick="Credit()"> &#169; Tilen Vidmar</a> 
+  	<script>
+            function Credit() {
+               Swal.fire({
+                      background: "#898989",
+                      font: "Helvetica",
+                      title: 'Apple Bezier SVG',
+                      showClass: {
+                      popup: 'animate__animated animate__backInUp'
+                      },
+                      hideClass: {
+                      popup: 'animate__animated animate__backOutDown'},
+                      text: '© Tilen Vidmar 4. RA',
+                      icon: 'info',
+                      iconColor:"#707070",
+                      confirmButtonText: 'Done',
+                      confirmButtonColor: "#707070",
+                      backdrop: `
+                         	hsla(0, 0%, 54%,0.3)
+                      `   
+                })
+            }
+        </script>
   </div>
 </body>
 </html>

@@ -72,6 +72,10 @@ body{
 	overflow-x: hidden;
 	position: relative;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 #Head{
 	height: 7%;
 	width: 100%;
@@ -169,6 +173,8 @@ body{
  font-size: 34px;
  font-weight: 500;
  width: 725px;
+ display: flex;
+ flex-direction: column;
 }
 #lla{
 	-webkit-animation: fade-in-bottom 1s ease-in 1s both;
@@ -186,6 +192,8 @@ body{
 	      animation: fade-in-bottom 1s ease-in 2s both;
   bottom: -10;
   border-bottom: 2px solid #3D3D3D;
+  display: flex;
+  flex-direction: row;
 }
 .childparBody{
 	display: inline-block;
@@ -198,7 +206,7 @@ body{
 	border-bottom: 2px solid #3D3D3D;
 }
 .pSelfiePic{
-    
+    width: 200%;
 }
 .cSelfieTexta{
 	font-size: 48px;
@@ -219,6 +227,9 @@ body{
 .colorSelect{
 	width: 205px;
 	height: 275px;
+	display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .colorSelect ul{
 }
@@ -242,7 +253,7 @@ body{
 #BezierLogo{
 	width: 160px;
 	height: 165px;
-	transform: translate(77.5%,-500%)
+	transform: translate(77.5%,-477.5%);
 }
 #Foot{
 	height: 34px;
